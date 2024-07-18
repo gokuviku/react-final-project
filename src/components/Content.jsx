@@ -7,15 +7,16 @@ const Content = () => {
   return (
     <>
       <form onSubmit={handleSubmit}>
-        <div className="mb-3 ms-5 row ">
+        <h2 className="mt-5 ms-5" >Contact Me</h2>
+        <div className="my-3 ms-5 row ">
           <div className="col-12">
-            <div className="col-xl-4 col-lg-8 col-12">
+            <div className="col-xl-4 col-lg-5 col-12">
               <label htmlFor="exampleFormControlInput1" className="form-label">
                 Email address
               </label>
             </div>
 
-            <div className="col-xl-4 col-lg-8 col-12">
+            <div className="col-xl-4 col-lg-5 col-12">
               <input
                 type="email"
                 className="form-control "
@@ -29,16 +30,16 @@ const Content = () => {
         <div className="mb-3 ms-5 row ">
           <div className="col-12">
 
-            <div className="col-xl-4 col-lg-8 col-12">
+            <div className="col-xl-4 col-lg-5 col-12">
               <label
                 htmlFor="exampleFormControlTextarea1"
                 className="form-label"
               >
-                Example textarea
+                Enter Query
               </label>
             </div>
 
-            <div className="col-xl-4 col-lg-8 col-12">
+            <div className="col-xl-4 col-lg-5 col-12">
               <textarea
                 className="form-control"
                 id="exampleFormControlTextarea1"
@@ -46,7 +47,7 @@ const Content = () => {
                 defaultValue={""}
               />
               <div className="mt-2">
-                <button type="submit" class="btn btn-primary ">
+                <button type="submit" className="btn btn-primary ">
                   Submit
                 </button>
               </div>
